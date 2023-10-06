@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+}
+#top{
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: red;
+}
+#nav{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+#navr a{
+    margin: 10px; 
+    padding: 10px 20px;
+    text-decoration: none;
+}
+#navl img{
+    width: 20px;
+    height: 20px;
+
+}
+#navr a:hover{
+    background-color: rgb(106, 98, 98);
+    color: white;
+    border-radius:30px ;
+}
+#top{
+    margin: 0;
+    background-image:url(pizza\ bc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+#top h1{
+    margin: 20px;
+}
+#top p{
+    margin: 20px;
+}
+#btn{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+#service{margin: 0;
+    width: 100%;
+}
+#st{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#stl{
+    width: 50%;
+    height: 100%;
+}
+#stl img{
+   width: 20%;
+   height: 20%;
+}
+#str{
+    width: 50%;
+    height: 100%;
+}
+#str img{
+    width: 20%;
+   height: 20%;
+}
+#sb{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+#sbl{
+    width: 50%;
+    height: 100%;
+}
+#sbl img{
+    width: 20%;
+   height: 20%;
+}
+#sbr{
+    width: 50%;
+    height: 100%;
+}
+#sbr img{
+    width: 20%;
+   height: 20%;
+}
+.box{
+    border: 5px solid rgb(240, 101, 14);
+    border-radius: 9px;
+    background-color: #f38415e8;
+    text-align: center;
+    margin: 15px;
+    padding: 10px ;
+
+}
+#contact{
+    width: 100%;
+    margin: 0  ;
+    background-color: rgb(94, 92, 92);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.cont{
+    margin: 10px;
+    text-align: center;
+}
+#contact a img{
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 500px) {
+    
+    #main #nav{
+        width: 100%;
+        
+    }
+    #main #top{
+        width: 100%;
+        
+    }
+    #main #service{
+        width: 100%;
+
+    }
+    #main #contact{
+     width: 100%;
+    }
+
+} 
